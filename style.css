@@ -1,0 +1,378 @@
+body { 
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 1;
+    font-weight: 400;
+    font-size: 120px;
+    margin: 0%;
+}
+
+.btn-1 {
+    position: absolute;
+    top: 55px;
+    right: 0.5cm;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn-1:hover {
+    color: rgb(0, 189, 214);
+    font-family: "Open Sans", 'Roboto' sans-serif;
+}
+
+.btn-2 {
+    position: absolute;
+    top: 55px;
+    right: 5cm;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.btn-2:hover {
+    color: rgb(0, 189, 214);
+}
+
+.btn-3 {
+    position: absolute;
+    top: 55px;
+    right: 10cm;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn-3:hover {
+    color: rgb(0, 189, 214);
+}
+
+.btn-4 {
+    position: absolute;
+    top: 55px;
+    right: 14.5cm;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn-4:hover {
+    color: rgb(0, 189, 214);
+}
+
+.bandeau {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.bandeau img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.about-me {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+
+}
+.name {
+    font-family: 'Roboto' sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.me {
+    font-family: 'Roboto';
+    left: 16cm;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 300;
+    width: 50%;
+}
+
+.carre {
+    position: fixed;
+    bottom: -20cm;
+    left: 0%;
+    width: 50%;
+    height: 350px;
+    background-color: rgb(0, 171, 201);
+    position: absolute;
+}
+
+.carregris {
+    position: fixed;
+    bottom: -20cm;
+    left: 50%;
+    width: 50%;
+    height: 350px;
+    background-color: rgb(240, 240, 240);
+    position: absolute;
+}
+
+
+
+.citation {
+    bottom: -20cm;
+    position: absolute;
+    top: 38cm;
+    left: 3.6cm;
+    font-size: 45px;
+    color: white;
+}
+
+.qualite1 {
+    bottom: -20cm;
+    left: 60%;
+    top: 37cm;
+    position: absolute;
+    color: rgb(0, 171, 201);
+    font-size: 30px;;
+}
+
+.qualite2 {
+    bottom: -20cm;
+    left: 60%;
+    top: 39cm;
+    position: absolute;
+    color: rgb(0, 171, 201);
+    font-size: 30px;
+}
+
+.qualite3 {
+    bottom: -20cm;
+    left: 60%;
+    top: 41cm;
+    position: absolute;
+    color: rgb(0, 171, 201);
+    font-size: 30px;
+}
+
+
+
+.t1 {
+    bottom: -20cm;
+    left: 64%;
+    top: 37.8cm;
+    position: absolute;
+    font-weight: 300;
+    font-family: 'Roboto';
+}
+
+.t2 {
+    bottom: -20cm;
+    left: 64%;
+    top: 39.8cm;
+    position: absolute;
+}
+
+.t3 {
+    bottom: -20cm;
+    left: 64%;
+    top: 41.8cm;
+    position: absolute;
+}
+
+
+.projet {
+    bottom: -20cm;
+    left: 10%;
+    top: 46cm;
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.projet .projett {
+    font-family: "Roboto", sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.projet1 {
+    background-color: rgb(0, 171, 201);
+    height: 300px;
+    width: 38%;
+    position: absolute;
+    bottom: -20cm;
+    left: 10%;
+    top: 50cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.projet2 {
+    background-color: rgb(0, 171, 201);
+    height: 300px;
+    width: 38%;
+    position: absolute;
+    bottom: -20cm;
+    left: 51%;
+    top: 50cm;        
+}
+
+.projet3 {
+    background-color: rgb(0, 171, 201);
+    height: 300px;
+    width: 38%;
+    position: absolute;
+    bottom: -20cm;
+    left: 10%;
+    top: 59.5cm;
+}
+
+.projet4 {
+    background-color: rgb(0, 171, 201);
+    height: 300px;
+    width: 38%;
+    position: absolute;
+    bottom: -20cm;
+    left: 51%;
+    top: 59.5cm;
+}
+
+.img1 {
+    left: 10%;
+    top: 50cm;
+    height: 300px;
+    width: 38%;
+}
+
+.parcours {
+    font-family: 'Roboto', sans-serif;
+    bottom: -20cm;
+    left: 10%;
+    top: 68cm;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.annee2023 {
+    bottom: -20cm;
+    left: 10%;
+    top: 72cm;
+    position: absolute;
+    color: rgb(0, 171, 201);
+    font-size: 30px;
+}
+
+.annee2022 {
+    bottom: -20cm;
+    left: 10%;
+    top: 74cm;
+    position: absolute;
+    color: rgb(0, 171, 201);
+    font-size: 30px;
+}
+
+.annee2021 {
+    bottom: -20cm;
+    left: 10%;
+    top: 76cm;
+    position: absolute;
+    color: rgb(0, 171, 201);
+    font-size: 30px;
+}
+
+.etude1 {
+    bottom: -20cm;
+    left: 20%;
+    top: 72cm;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.etude2 {
+    bottom: -20cm;
+    left: 20%;
+    top: 74cm;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.etude3 {
+    bottom: -20cm;
+    left: 20%;
+    top: 76cm;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.text2021 {
+    bottom: -20cm;
+    left: 20%;
+    top: 77cm;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.text2022 {
+    bottom: -20cm;
+    left: 20%;
+    top: 75cm;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.text2023 {
+    bottom: -20cm;
+    left: 20%;
+    top: 73cm;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.interet {
+    font-family: 'Roboto', sans-serif;
+    bottom: -20cm;
+    left: 40%;
+    top: 79cm;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.carref {
+    background-color: rgb(240, 240, 240);
+    width: 50%;
+    height: 350px;
+    position: absolute;
+    top: 80cm;
+}
+
